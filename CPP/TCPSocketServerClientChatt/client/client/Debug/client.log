@@ -1,0 +1,4 @@
+﻿  client.cpp
+D:\Github\CPP\TCPSocketServerClientChatt\client\client\client.cpp(14,37): warning C4101: 'client_addr': unreferenced local variable
+D:\Github\CPP\TCPSocketServerClientChatt\client\client\client.cpp(17,9): warning C4101: 'client_addr_len': unreferenced local variable
+  client.vcxproj -> D:\Github\CPP\TCPSocketServerClientChatt\client\Debug\client.exe
