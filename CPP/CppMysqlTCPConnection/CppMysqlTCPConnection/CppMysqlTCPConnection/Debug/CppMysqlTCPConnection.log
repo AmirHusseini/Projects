@@ -1,0 +1,3 @@
+﻿  CppMysqlTCPConnection.cpp
+D:\Github\CPP\CppMysqlTCPConnection\CppMysqlTCPConnection\CppMysqlTCPConnection\CppMysqlTCPConnection.cpp(27,18): warning C4101: 'stmt': unreferenced local variable
+  CppMysqlTCPConnection.vcxproj -> D:\Github\CPP\CppMysqlTCPConnection\CppMysqlTCPConnection\Debug\CppMysqlTCPConnection.exe
