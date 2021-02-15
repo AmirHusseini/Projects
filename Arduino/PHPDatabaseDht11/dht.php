@@ -1,4 +1,10 @@
 <?php
+
+//Read the data using get and push them to the database 
+if($_GET['humidity'] != '' and $_GET['temperature'] != ''){
+ $dht11=new dht11($_GET['humidity'],$_GET['temperature']);
+}
+
 class dht11{
  public $link='';
  function __construct($humidity, $temperature){
@@ -20,9 +26,6 @@ class dht11{
  
 }
 
-//Read the data using get and push them to the database 
-if($_GET['humidity'] != '' and $_GET['temperature'] != ''){
- $dht11=new dht11($_GET['humidity'],$_GET['temperature']);
-}
+
 
 ?>
