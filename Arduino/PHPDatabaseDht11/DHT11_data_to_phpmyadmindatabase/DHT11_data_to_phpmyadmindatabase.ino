@@ -76,13 +76,15 @@ void loop(){
   
 }
 
-
-  void Sending_To_phpmyadmindatabase()   //CONNECTING WITH MYSQL
+	//CONNECTING WITH MYSQL
+	
+  void Sending_To_phpmyadmindatabase()   
  {
    if (client.connect(server, 80)) {
     Serial.println("Connected to Database");
     
-    // Make a HTTP request:
+    // HTTP REQUEST using GET:
+	
     Serial.print("GET /PHPDatabaseDht11/dht.php?humidity=");
     client.print("GET /PHPDatabaseDht11/dht.php?humidity=");     //YOUR URL
     Serial.println(humidityData);
@@ -98,6 +100,7 @@ void loop(){
     client.println("Connection: close");
     client.println();
   } else {
+	  
     // if you didn't get a connection to the server:
     Serial.println("connection failed");
   }
