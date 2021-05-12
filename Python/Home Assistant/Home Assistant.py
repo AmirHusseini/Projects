@@ -3,7 +3,7 @@ import speech_recognition as sr    #RECOGNIZE VOICE USING MICROPHONE
 import pyttsx3    #TEXT_TO_SPEECH
 import subprocess #OPEN PROGRAMS
 import pocketsphinx #Offline speech_recognition
-from gpiozero import LED
+from gpiozero import LED #Control GPIO
 from time import sleep
 
 red = LED(12)
@@ -93,9 +93,10 @@ while True:
                 note_text = get_audio()
                 note(note_text)
                 speak("I have made a note of that.")
-        if 'lights on' in text:
+#Turning light on and off 
+        if 'light on' in text:
             speak("turning on the light")
             red.on()
-        if 'lights off' in text:
+        if 'light off' in text:
             speak("turning off the light")
             red.off()
