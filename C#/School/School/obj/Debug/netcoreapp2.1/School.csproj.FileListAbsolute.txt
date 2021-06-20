@@ -1,0 +1,12 @@
+D:\Github\C#\School\School\bin\Debug\netcoreapp2.1\School.deps.json
+D:\Github\C#\School\School\bin\Debug\netcoreapp2.1\School.runtimeconfig.json
+D:\Github\C#\School\School\bin\Debug\netcoreapp2.1\School.runtimeconfig.dev.json
+D:\Github\C#\School\School\bin\Debug\netcoreapp2.1\School.dll
+D:\Github\C#\School\School\bin\Debug\netcoreapp2.1\School.pdb
+D:\Github\C#\School\School\obj\Debug\netcoreapp2.1\School.csprojAssemblyReference.cache
+D:\Github\C#\School\School\obj\Debug\netcoreapp2.1\School.AssemblyInfoInputs.cache
+D:\Github\C#\School\School\obj\Debug\netcoreapp2.1\School.AssemblyInfo.cs
+D:\Github\C#\School\School\obj\Debug\netcoreapp2.1\School.csproj.CoreCompileInputs.cache
+D:\Github\C#\School\School\obj\Debug\netcoreapp2.1\School.dll
+D:\Github\C#\School\School\obj\Debug\netcoreapp2.1\School.pdb
+D:\Github\C#\School\School\obj\Debug\netcoreapp2.1\School.genruntimeconfig.cache
