@@ -36,7 +36,7 @@ namespace Gradebook
                     }
                     finally //execute even if invalid
                     {
-                        Console.WriteLine("**");
+                        Console.WriteLine("**********");
                     }
                 }
                 
